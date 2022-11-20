@@ -1,0 +1,29 @@
+{
+  "requestId": "ff36a3cc-ec34-11e6-b1a0-64510650abcf",
+  "payload": {
+    "agentUserId": "USER_ID",
+    "devices": [
+      {
+        "id": "LED",
+        "type": "action.devices.types.LIGHT",
+        "traits": [
+          "action.devices.traits.OnOff",
+          "action.devices.traits.Brightness",
+          "action.devices.traits.ColorSetting"
+        ],
+        "name": {
+          "defaultNames": ["ST Nucleo-F767i LED"],
+          "name": "LED",
+          "nicknames": ["led"]
+        },
+        "willReportState": false,
+        "deviceInfo": {
+          "manufacturer": "ST",
+          "model": "f767zi",
+          "hwVersion": "mb1137-b01",
+          "swVersion": "0.1"
+        }
+      }
+    ]
+  }
+}
